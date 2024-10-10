@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+    background-color: rgb(229, 232, 232);
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 15%; 
+}
+
+.desempenho {
+    background-image: linear-gradient(#6641FE,#4B36F3,#372FEC);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 1.6em;
+    width: 28%;
+    padding: 3em;
+    margin: -2em;
+    gap: 1.65em;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+
+}
+
+#tituloDesempenho {
+    color: #ffffff9b;
+}
+#descricaoDesempenho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 14px;
+}
+
+#descricao {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 100;
+}
+#bgAcertos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    background-image: linear-gradient(#4A23CB, #452FE7,#4633EE);
+    border-radius: 50%;
+    font-size: 88px;
+    
+    
+}
+#bgAcertos, p {
+    font-weight: 700;
+}
+
+#textoSec {
+    font-size: 25px;
+    color: #ffffff4a;
+    font-weight: 500;
+}
+
+#textoOtimo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tarefas {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.6em;
+    padding: 3em 4em 3em 5em;
+    width: 27%;
+    gap: 1.7em;
+}
+
+.descricaoTarefas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    justify-items: center;
+    gap: 0.7em;
+    
+}
+
+.tiposTarefas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #c5c5c6e6;
+    border-radius: 0.7em;
+    color: #ffffff;
+    padding: 1.07em;
+    
+
+}
+
+.tiposTarefas_icone{
+    display: flex;
+    flex: row;
+    gap: 0.8em;
+}
+
+.textoDestaqueResultados {
+    font-size: 16px;
+    color: #303A59;
+}
+.porcentagemTarefas {
+    color: #b5b5b7;
+}
+
+#boxReacao {
+  background-color: #FFF6F6;
+  color: #eb7b7f;
+}
+
+#boxMemoria{
+    background-color: #FFFBF2;
+    color: #FFC24D;
+}
+
+#boxVerbal {
+    background-color: #F3FAFA;
+    color: #349D84;
+}
+
+#boxVisual {
+    background-color: #F3F3FD;
+    color: #0000B0;
+}
+
+.botao {
+    background-color: #303B59;
+    color: #ffffff;
+    align-items: center;
+    border-radius: 1.7em;
+    padding: 1.3em;
+    border-style: none;
+    
+}
+
+@media screen and (max-width: 1262px){
+    .principal {
+        padding: 20% 5% 20% 5%;
+    }
+}
+@media screen and (max-width: 1020px){
+    .principal {
+        display: flex;
+        flex-direction: column;
+        padding: 3% 1% 0% 1%;
+        margin: 0%;
+    }
+
+    .desempenho{
+        width: 92.4%;
+        border-radius: 0% 0% 5% 5%;
+        
+        
+    }
+
+    .tarefas {
+        width: 90%;
+        padding-top: 10% ;
+        gap: 3em;
+        height: 50vh;
+        
+    }
+    .descricaoTarefas{
+        gap: 1.4em;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    .principal {
+        padding: 3% 7% 0% 7%;
+    }
+    .desempenho {
+        padding: 15%;
+        width: 92.4%;
+        border-radius: 0% 0% 9% 9%;
+    }
+    .tarefas {
+        padding: 15%;
+        height: 100vh;
+    }
+    .descricaoTarefas{
+        gap: 1.7em;
+    }
+    .tiposTarefas {
+        gap: 0.2em;
+    }
+}
