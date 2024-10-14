@@ -5,10 +5,8 @@
     font-family: "Hanken Grotesk", sans-serif;
 }
 
-body {
-    background-color: rgb(229, 232, 232);
-}
 .principal {
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
