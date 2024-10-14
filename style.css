@@ -31,9 +31,7 @@
     gap: 1.65em;
     color: #ffffff;
     text-align: center;
-    z-index: 2;
-    position: relative;
-    right: -70px;
+    z-index: 1;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 
 }
@@ -89,7 +87,6 @@
     width: 27%;
     gap: 1.7em;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1;
 }
 
 .descricaoTarefas {
