@@ -13,8 +13,9 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    padding: 15%; 
     height: 100vh;
+    padding: 1%;
+    
 }
 
 .desempenho {
@@ -30,7 +31,9 @@
     gap: 1.65em;
     color: #ffffff;
     text-align: center;
-    z-index: 1;
+    z-index: 2;
+    position: relative;
+    right: -70px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 
 }
@@ -86,6 +89,7 @@
     width: 27%;
     gap: 1.7em;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .descricaoTarefas {
